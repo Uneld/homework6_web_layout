@@ -1,0 +1,151 @@
+@media (max-width: 1024px) {
+	.center {
+		padding-left: calc(50% - 770px / 2);
+		padding-right: calc(50% - 770px / 2);
+	}
+
+	.center_content {
+		padding-left: calc(50% - 735px / 2);
+		padding-right: calc(50% - 735px / 2);
+	}
+
+	.center_bottom {
+		padding-left: calc(50% - 360px / 2);
+		padding-right: calc(50% - 360px / 2);
+	}
+
+	.top {
+		gap: 39px;
+	}
+
+	.top_title {
+		font-size: 44px;
+	}
+
+	.top_text {
+		font-size: 24px;
+	}
+
+	.offer {
+		grid-template-rows: 167px 116px;
+	}
+
+	.products {
+		padding-top: 45px;
+		padding-bottom: 70px;
+	}
+
+	.prod_conteiner {
+		grid-template-rows: repeat(3, 1fr);
+		grid-template-columns: repeat(2, 1fr);
+		gap: 16px;
+		margin-top: 72px;
+		margin-bottom: 32px;
+	}
+
+	.feature {
+		padding-top: 48px;
+		padding-bottom: 64px;
+		flex-direction: column;
+		gap: 48px;
+	}
+
+	.subscribe {
+		padding-top: 64px;
+		padding-bottom: 140px;
+		flex-direction: column;
+		gap: 91px;
+		align-items: center;
+		background-position-x: -400px;
+	}
+
+	.subscribe_item:last-child {
+		margin-right: 0px;
+	}
+
+	.subscribe_sendform_text {
+		margin-bottom: 27px;
+	}
+}
+
+@media (max-width: 767px) {
+	.disp_none {
+		display: none;
+	}
+
+	.center {
+		padding-left: calc(50% - 375px / 2);
+		padding-right: calc(50% - 375px / 2);
+	}
+
+	.center_content {
+		padding-left: calc(50% - 343px / 2);
+		padding-right: calc(50% - 343px / 2);
+	}
+
+	.top {
+		justify-content: center;
+	}
+
+	.top_content {
+		margin-top: 148px;
+		margin-bottom: 148px;
+	}
+
+	.top_title {
+		font-size: 38px;
+	}
+
+	.top_text {
+		font-size: 20px;
+	}
+
+	.offer {
+		grid-template-rows: repeat(3, 248px) 111px;
+		grid-template-columns: 1fr;
+		padding-bottom: 32px;
+	}
+
+	.offer_item_big {
+		grid-area: auto;
+	}
+
+	.products {
+		padding-top: 32px;
+		padding-bottom: 85px;
+	}
+
+	.prod_conteiner {
+		grid-template-rows: repeat(6, 1fr);
+		grid-template-columns: 1fr;
+		margin-top: 64px;
+		margin-bottom: 40px;
+	}
+
+	.feature {
+		padding-top: 48px;
+		padding-bottom: 81px;
+		gap: 46px;
+	}
+
+	.subscribe {
+		padding-bottom: 110px;
+		gap: 59px;
+		background-position-x: -460px;
+	}
+
+	.footer {
+		padding-top: 40px;
+		padding-bottom: 9px;
+		flex-direction: column;
+		gap: 40px;
+	}
+
+	.footer_link_conteiner {
+		order: 0;
+	}
+
+	.footer_text {
+		order: 1;
+	}
+}

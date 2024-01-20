@@ -1,0 +1,60 @@
+.header svg:hover path {
+	fill: #f16d7f;
+}
+
+.offer_item:hover {
+	background-color: rgba(33, 22, 22, 0.3);
+}
+
+.prod_img_button:hover {
+	border-color: #f26376;
+	cursor: pointer;
+}
+
+.prod_img_button:hover a {
+	color: #f26376;
+}
+
+.prod_img_button:hover svg path {
+	fill: #f26376;
+}
+
+.prod_img_container:hover img {
+	opacity: 0.1;
+}
+
+.prod_img_container:hover .prod_img_button {
+	opacity: 1;
+}
+
+.prod_button button:hover {
+	color: #fff;
+	background-color: #f26376;
+	cursor: pointer;
+}
+
+.prod_button button:active {
+	transform: scale(0.98);
+}
+
+.sendform_container button:hover {
+	color: #f26376;
+	background-color: #fff;
+	cursor: pointer;
+}
+
+.sendform_container button:active {
+	transform: scale(0.98);
+}
+
+.footer_link_block:hover {
+	cursor: pointer;
+	background-color: #f16d7f;
+}
+.footer_link_block:hover svg path {
+	fill: #ffffff;
+}
+
+.footer_link_block:active {
+	transform: scale(0.95);
+}
