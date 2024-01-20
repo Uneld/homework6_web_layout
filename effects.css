@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 .header svg:hover path {
 	fill: #f16d7f;
 }
@@ -34,6 +41,8 @@
 }
 
 .prod_button button:active {
+	-webkit-transform: scale(0.98);
+	-ms-transform: scale(0.98);
 	transform: scale(0.98);
 }
 
@@ -44,6 +53,8 @@
 }
 
 .sendform_container button:active {
+	-webkit-transform: scale(0.98);
+	-ms-transform: scale(0.98);
 	transform: scale(0.98);
 }
 
@@ -56,5 +67,23 @@
 }
 
 .footer_link_block:active {
+	-webkit-transform: scale(0.95);
+	-ms-transform: scale(0.95);
 	transform: scale(0.95);
+}
+
+.feature_item svg:first-child {
+	display: none;
+}
+
+.feature_item:hover {
+	position: relative;
+}
+
+.feature_item:hover svg:first-child {
+	-webkit-filter: blur(1px);
+	filter: blur(1px);
+	scale: 1.1;
+	display: inline-block;
+	position: absolute;
 }
