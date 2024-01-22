@@ -260,3 +260,30 @@
 		order: 1;
 	}
 }
+
+@media (max-width: 375px) {
+	.center_content {
+		padding-left: calc(50% - 300px / 2);
+		padding-right: calc(50% - 300px / 2);
+	}
+
+	.center_bottom {
+		padding-left: calc(50% - 300px / 2);
+		padding-right: calc(50% - 300px / 2);
+	}
+
+	.sendform_container input {
+		background-color: #e1e1e1;
+		/* min-width: calc(256px - 23px); */
+		padding-left: 23px;
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;
+		outline: none;
+		border: none;
+		padding: 19px 10px;
+	}
+
+	.sendform_container button {
+		padding: 19px 10px;
+	}
+}
